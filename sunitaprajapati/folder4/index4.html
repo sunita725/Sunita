@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+<script>
+$(document).ready(function() {
+    $('.icon').click(function() {
+        var url = $(this).data('href');
+        if (url) {
+            window.location.href = url;
+        }
+    });
+});
+</script>    
+
+</head>
+<body>
+
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name" >PORTFOLIO</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu"  id="myNavMenu"> 
+
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Project</a>
+                        <div class="circle"></div>
+
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                  
+                </ul>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenufunction()"></i>
+            </div>
+        </nav>
+    </div>
+    
+    <main class="wrapper">
+        <section class="featured-box" id="home">
+            <div class="featured-text">
+              <div class="featured-text-card">
+                <span>Sunita Prajapat</span>
+              </div>
+              <div class="featured-name">
+                <p>I'm </p>
+                <p class="text-animation">
+                    <span class="typedText">Developer</span>
+                    <span class="typedText"> Front-end</span></p>
+                    <!-- <span class="typedText">Back-end</span></p> -->
+
+              </div>
+           
+                <div class="featured-text-btn">
+                    <button class=" btn blue-btn">Hire me</button>
+                    
+                </div>
+
+                <div class="social_icons">                    
+                    <div class="icon" data-href="https:/"><i class="uil uil-linkedin-alt"></i></div>
+                    <div class="icon" data-href="https:/"><i class="uil uil-github-alt"></i></div>
+                    <div class="icon" data-href="https://www.instagram.com/designer_sunitaprajapati/"><i class="uil uil-instagram"></i></div>
+                </div>
+            </div>
+            <div class="featured-image">
+
+                <div class="image">
+                    <img src="sunita.jfif" alt="avatar">
+                </div>
+            </div>
+            <div class="scroll-icon-box">
+                <a href="#about" class="scroll-btn"><i class="uil uil-mouse-alt-2"></i>
+                <p>Scroll Down</p></a>
+            </div>
+
+        </section>
+        <!----------------------- About Section ------------------->
+        <section class="section" id="about">
+            <div class="top-header">
+                <h1>About Me</h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="about-info">
+                        <h3>My introduction</h3>
+                        <p>Hey there! I'm Sunita, a passionate web designer with a flair for full-stack development. I bring concepts to life across digital platforms using Adobe Creative Suite, HTML, CSS, and more. I thrive on challenges, using design to evoke emotions and inspire action. Let's collaborate and create something amazing together!</p>
+                    </div>
+                </div>
+                <div class="cols">
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h2>Frontend</h2>
+                        </div>
+                        <div class="skills-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>Photoshop</span>
+                        </div>
+                    </div>
+                    <!-- <div class="skills-box">
+                        <div class="skills-header">
+                            <h2>Backend</h2>
+                        </div>
+                        <div class="skills-list">
+                            <span>PHP</span>
+                            <span>Laravel</span>
+                        </div>          
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h2>Database</h2>
+                        </div>
+                        <div class="skills-list">
+                            <span>MySQL</span>
+                            
+                        </div> -->
+                    </div>
+            </div>
+           
+                
+            </div>
+        </section>
+
+        <!----------------------- Project Section ------------------->
+        <section class="section" id="projects">
+            <div class="top-header">
+                <h1>Project</h1>
+            </div>
+            <div class="project-container">
+               
+                <a href="https" class="project-link">
+                    <div class="project-box"> 
+                        <i class="fa-solid fa-globe"></i>
+                        <h3>drnldisania.com</h3>
+                        <label>CSS/HTML/Bootstrap</label>
+                    </div>
+                </a>
+                <a href="https" class="project-link">
+                    <div class="project-box"> 
+                        <i class="fa-solid fa-globe"></i>
+                        <h3>aumshivay.com</h3>
+                        <label> HTML/Bootstrap/CSS/js</label>
+                    </div>
+                </a>
+                <a href="https:" class="project-link">
+                    <div class="project-box"> 
+                        <i class="fa-solid fa-globe"></i>
+                        <h3>gayatreeastro.com</h3>
+                        <label>CSS/HTML/Bootstrap</label>
+                    </div>
+                </a>
+               
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="top-header">
+                <h1>Get in touch</h1>
+                <span>Do you have a project in your mind, contact me here</span>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="contact-info">
+                        <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                        <p><i class="uil uil-envelope"></i>Email: sunitaprajapat725@gmail.com</p>
+                        <p><i class="uil uil-calling"></i>Mobile No. : 8107456801</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+       
+
+    </main>
+    <footer>
+        <div class="top-footer">
+            <p>Sunita Prajapat.</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#project">Project</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icon">
+            <div class="icon" data-href="https://www.instagram.com/designer_sunitaprajapati/"><i class="uil uil-instagram"></i></div>
+                    <div class="icon" data-href="https:"><i class="uil uil-linkedin-alt"></i></div>
+                    <div class="icon" data-href=" https:/"><i class="uil uil-github-alt"></i></div>
+        </div>
+        <div class="bottom-footer">
+            <p>Thank You for Visting my <a href="#home" style="text-decoration: none;">PORTFOLIO.</a></p>
+        </div>
+    </footer>
+
+    <script src="script4.js"></script>
+    
+       
+</body> 
+</html>
